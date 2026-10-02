@@ -93,3 +93,32 @@ footer img{width:170px}footer p{font-size:12px}
   .cards article{border-right:0;border-bottom:1px solid var(--line);padding:28px 0!important}
   .section,.contact{padding:80px 7vw}
 }
+/* Ρύθμιση ενότητας Σπουδές & Επαγγελματική πορεία */
+.experience .section-grid{
+  grid-template-columns:42% 58%;
+  column-gap:70px;
+  row-gap:55px;
+}
+
+.experience .section-grid > h2{
+  font-size:clamp(42px,4.2vw,64px);
+  line-height:1;
+}
+
+.experience .section-grid > div h3{
+  font-size:22px;
+  line-height:1.35;
+  margin:8px 0;
+}
+
+.experience .section-grid > div p{
+  font-size:16px;
+  line-height:1.6;
+}
+
+@media(max-width:900px){
+  .experience .section-grid{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+}
