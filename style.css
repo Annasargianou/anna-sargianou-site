@@ -93,3 +93,28 @@ footer img{width:170px}footer p{font-size:12px}
   .cards article{border-right:0;border-bottom:1px solid var(--line);padding:28px 0!important}
   .section,.contact{padding:80px 7vw}
 }
+.experience-list{
+  display:flex;
+  flex-direction:column;
+}
+
+.experience-list>div{
+  padding:0 0 28px;
+}
+
+.experience-list>div+div{
+  border-top:1px solid var(--line);
+  padding-top:28px;
+}
+
+.experience-list h3{
+  margin:8px 0 0;
+  font-size:25px;
+  font-weight:500;
+  line-height:1.2;
+}
+
+.experience-list p{
+  margin:12px 0 0;
+  line-height:1.7;
+}
