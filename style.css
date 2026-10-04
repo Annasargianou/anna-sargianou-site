@@ -16,7 +16,7 @@ body{margin:0;background:var(--cream);color:var(--ink);font-family:"Manrope",Ari
   height:168px;background:#fff;display:flex;align-items:center;justify-content:space-between;
   padding:18px clamp(28px,7vw,120px);position:relative;z-index:10
 }
-.brand img{display:block;width:290px;max-height:130px;object-fit:contain}
+.brand img{display:block;width:220px;max-height:100px;object-fit:contain}
 nav{display:flex;gap:clamp(24px,3.5vw,62px);align-items:center}
 nav a{color:var(--ink);text-decoration:none;font-family:"Playfair Display",serif;font-size:18px;padding:10px 0;position:relative}
 nav a.active:after,nav a:hover:after{content:"";position:absolute;left:0;right:0;bottom:0;height:1.5px;background:var(--ink)}
@@ -24,7 +24,7 @@ nav a.active:after,nav a:hover:after{content:"";position:absolute;left:0;right:0
 .hero-copy{padding:82px 7vw 60px}
 .eyebrow{font-size:13px;letter-spacing:.18em;font-weight:600;margin:0 0 24px}
 h1,h2{font-family:"Playfair Display",Georgia,serif;font-weight:500;letter-spacing:-.035em;color:var(--ink-dark);margin:0}
-h1{font-size:clamp(64px,6.2vw,108px);line-height:.91}
+h1{font-size:clamp(48px,5vw,78px);line-height:.95}
 .lead{font-family:"Playfair Display",serif;font-size:21px;line-height:1.65;max-width:590px;margin:34px 0}
 .button{display:inline-flex;gap:35px;align-items:center;background:var(--ink);color:white;text-decoration:none;padding:19px 31px;font-family:"Playfair Display",serif;font-size:18px}
 .small-note{border-left:2px solid var(--ink);padding-left:20px;margin-top:38px;font-family:"Playfair Display",serif;line-height:1.55}
@@ -48,7 +48,7 @@ h1{font-size:clamp(64px,6.2vw,108px);line-height:.91}
 .section{padding:110px 8vw}
 .about{background:#eef0e9}
 .section-grid{display:grid;grid-template-columns:42% 58%;gap:70px}
-.section h2,.contact h2{font-size:clamp(46px,5vw,78px);line-height:1}
+.section h2,.contact h2{font-size:clamp(38px,4vw,60px);line-height:1.05}
 .body-copy{font-family:"Playfair Display",serif;font-size:20px;line-height:1.8;max-width:700px}
 .services{background:#faf8f3}
 .services>h2{max-width:750px;margin-bottom:65px}
@@ -92,33 +92,4 @@ footer img{width:170px}footer p{font-size:12px}
   .cards{grid-template-columns:1fr}
   .cards article{border-right:0;border-bottom:1px solid var(--line);padding:28px 0!important}
   .section,.contact{padding:80px 7vw}
-}
-/* Ρύθμιση ενότητας Σπουδές & Επαγγελματική πορεία */
-.experience .section-grid{
-  grid-template-columns:42% 58%;
-  column-gap:70px;
-  row-gap:55px;
-}
-
-.experience .section-grid > h2{
-  font-size:clamp(42px,4.2vw,64px);
-  line-height:1;
-}
-
-.experience .section-grid > div h3{
-  font-size:22px;
-  line-height:1.35;
-  margin:8px 0;
-}
-
-.experience .section-grid > div p{
-  font-size:16px;
-  line-height:1.6;
-}
-
-@media(max-width:900px){
-  .experience .section-grid{
-    grid-template-columns:1fr;
-    gap:40px;
-  }
 }
