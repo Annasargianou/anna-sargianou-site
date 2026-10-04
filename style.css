@@ -120,10 +120,10 @@ footer img{width:170px}footer p{font-size:12px}
 }
 @media(max-width:600px){
   .contact-grid{
-    font-size:22px;
+    font-size:26px;
   }
 
   .contact-details{
-    font-size:22px;
+    font-size:26px;
   }
 }
