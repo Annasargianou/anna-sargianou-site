@@ -118,3 +118,12 @@ footer img{width:170px}footer p{font-size:12px}
   margin:12px 0 0;
   line-height:1.7;
 }
+@media(max-width:600px){
+  .contact-grid{
+    font-size:22px;
+  }
+
+  .contact-details{
+    font-size:22px;
+  }
+}
